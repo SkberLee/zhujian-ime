@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="kbd_bg">#FF263238</color>
+    <color name="key_bg">#FF455A64</color>
+    <color name="key_fg">#FFFFFFFF</color>
+    <color name="key_special">#FF37474F</color>
+</resources>

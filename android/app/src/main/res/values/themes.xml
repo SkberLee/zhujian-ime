@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RimeIme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/kbd_bg</item>
+        <item name="android:navigationBarColor">@color/kbd_bg</item>
+    </style>
+</resources>

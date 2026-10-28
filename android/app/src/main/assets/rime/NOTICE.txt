@@ -1,0 +1,15 @@
+Rime 方案 / 词库数据（仅数据文件，不含同文应用代码）
+供日后 librime deploy 使用；当前 MVP 键盘尚未加载引擎。
+
+来源（本机拷贝自 /workspace/refs/trime/app/data/rime/ 子模块，上游如下）：
+  prelude     https://github.com/rime/rime-prelude
+              → default.yaml, key_bindings.yaml, punctuation.yaml, symbols.yaml
+              许可证：LICENSE.prelude
+  luna-pinyin https://github.com/rime/rime-luna-pinyin
+              → luna_pinyin*.schema.yaml, luna_pinyin.dict.yaml, pinyin.yaml
+              许可证：LICENSE.luna-pinyin（LGPL-3.0）
+  essay       https://github.com/rime/rime-essay
+              → essay.txt
+              许可证：LICENSE.essay
+
+未包含：trime.yaml / tongwenfeng.trime.yaml，以及任何 Trime Kotlin/JNI 源码。

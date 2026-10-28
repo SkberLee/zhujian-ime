@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">竹简</string>
+    <string name="ime_name">竹简</string>
+    <string name="subtype_chinese">中文</string>
+    <string name="ime_subtitle">竹简 · 壳可用 · 尚未接 Rime</string>
+</resources>

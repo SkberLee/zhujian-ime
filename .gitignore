@@ -1,0 +1,32 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Rust
+**/target/
+Cargo.lock
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.vscode/
+*.log
+
+# Native / NDK scratch
+*.o
+*.so
+!android/app/src/main/jniLibs/**/*.so
+
+# Secrets
+*.keystore
+*.jks
